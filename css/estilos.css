@@ -22,12 +22,25 @@ header{
   background-color: #cbd0d5;
 }
 
-.logo{
-  padding: 25px 0;
+.logobanner{
+  /*padding: 25px 0;*/
+  padding-top: 1px;
 }
 
+.logobanner img{
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.logo{
+  /*padding: 25px 0;*/
+  padding-top: 25px;
+}
+
+
 .logo img{
-  width: 100px;
+  width: 300px;
   display: block;
   margin: auto;
 }
@@ -92,6 +105,15 @@ header{
   color: rgb(8, 4, 68);;
   width: 100%;
   padding: 45px 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  max-width: 470px;
+}
+
+.llamada-accion div{
+  font-size: 42px;
+  color: rgb(8, 4, 68);;
+  width: 100%;
+  /*padding: 45px 0;*/
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 470px;
 }
