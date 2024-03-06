@@ -61,8 +61,8 @@
         dots: false,
         fade: true,
         arrows: false, 
-        prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+        prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
         responsive: [{
             breakpoint: 1024,
             settings: {
@@ -116,8 +116,8 @@
       autoplay: true,
       speed: 900,
       arrows: true,
-      prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
-      nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
+      prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-angle-left"></i></button>',
+      nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-angle-right"></i></button>',
       slidesToShow: 4,
       slidesToScroll: 2,
       responsive: [
@@ -153,7 +153,7 @@
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false
+            arrows: true
           }
         },
         {
@@ -161,7 +161,7 @@
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: false
+            arrows: true
           }
         },
       ]

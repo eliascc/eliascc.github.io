@@ -572,8 +572,10 @@ hr {
 
 @media (max-width: 575px) {
     .section-tittle h2 {
-        font-size: 24px;
-        letter-spacing: 1px
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 
@@ -2012,7 +2014,7 @@ hr {
 .popular-directorya-area .properties .properties-caption {
     background: #fff;
     padding: 30px 29px 40px 30px;
-    height: 400px
+    height: 450px
 }
 
 .popular-directorya-area .properties .properties-caption2 {
@@ -2023,13 +2025,25 @@ hr {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .popular-directorya-area .properties .properties-caption {
-        height: 400px
+        height: 450px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .popular-directorya-area .properties .properties-caption {
-        height: 400px
+        height: 450px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .popular-directorya-area .properties .properties-caption2 {
+        height: 250px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .popular-directorya-area .properties .properties-caption2 {
+        height: 250px
     }
 }
 
