@@ -2011,19 +2011,19 @@ hr {
 
 .popular-directorya-area .properties .properties-caption {
     background: #fff;
-    padding: 50px 29px 40px 30px;
-    height: 311px
+    padding: 30px 29px 40px 30px;
+    height: 400px
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .popular-directorya-area .properties .properties-caption {
-        height: 311px
+        height: 400px
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .popular-directorya-area .properties .properties-caption {
-        height: 350px
+        height: 400px
     }
 }
 

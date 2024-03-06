@@ -57,7 +57,7 @@
       });
       BasicSlider.slick({
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 10000,
         dots: false,
         fade: true,
         arrows: false, 
@@ -114,12 +114,12 @@
       dots: false,
       infinite: true,
       autoplay: true,
-      speed: 400,
+      speed: 900,
       arrows: true,
       prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
       nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
       slidesToShow: 4,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
       responsive: [
         {
           breakpoint: 1400,
